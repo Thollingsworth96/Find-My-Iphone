@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>App-Find My iPhone.</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div class="phone-box">
+
+<div class= "img-container">
+  <img src= "http://cdn.iphonehacks.com/wp-content/uploads/2013/08/find_my_iphone_icon.jpg" alt="Avatar" class="avatar">
+</div>
+<div class = "app-title">
+  <center>Find My Iphone</center>
+</div>
+<div class = "login">
+</div>
+
+<div class="login-area">
+  <label for="uname"><b><center>Apple ID</center></b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+  <label for="psw"><b><center>Password</center></b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+  
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+  
+<center><button onclick="myFunction()">Login...</button></center>
+<div class="forget">
+  <center><font size="3" color="green"><p>Forgot Apple ID or Password <br> Set Up Instructions<p></font>
+   </center>
+   
+</div>
+  
+  <div id="snackbar">
+    <div id="success-msg">
+    <b>Success!</b>
+      <p>You Are Signed In</p></div>
+    
+</div>
+<!--<div>
+    <div id="expire-msg">
+      <button 
+      <b>Error!</b>
+      <p>Please Try Again</p></div>
+    </div>-->
+</div>
+  </div>
+
+<div id="snackbar2"><b>session expired</b>
+  </div>
+
+
+<div id="expired"><b>Your session has expired</b> 
+  <p>You have automaticlly been signed out to protect your privacy</p>
+  <p><button onclick="myFunction()">OK</button><p>
+</div>
+</div>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
