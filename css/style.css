@@ -1,0 +1,202 @@
+body {
+  padding: 0cm, 0cm;
+  margin: 0px auto 10px auto;
+}
+
+.img-container {
+  margin: 200px auto 5px auto;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  border-radius: 15%;
+}
+
+.avatar {
+  border-radius: 35%;
+}
+
+.app-title {
+  font-size: 45px;
+  font-family: arial, helvectica, sans-serif;
+  top: 10px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.phone-box {
+  border: solid 1px;
+  background-color: white;
+  width: 400px;
+  height: 750px;
+  margin: auto;
+  text-align: auto;
+  font-family: arial;
+  border-radius: 5%;
+}
+
+form {
+  border: 3px solid #f1f1f1;
+}
+
+input[type="text"],
+input[type="password"] {
+
+  width: 125%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  
+  
+}
+button {
+  background-color: #FFFFFF;
+  color: #CFCCCB;
+  font-size:25px;
+  padding: 14px 20px;
+  margin: 2px 0;
+  border: none;
+  cursor: pointer;
+  width: 45%;
+  position: auto;
+}
+
+button:hover {
+  opacity: 0.8;
+  
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.find-my-iphone {
+  max-width: 100%;
+  height: auto;
+}
+
+.login-area {
+  width: 45%;
+  display: auto;
+  margin-right: auto;
+  margin-left: auto;
+  caret-color: purple;
+}
+.login-area:hover {
+caret-color:green;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+  caret-color: green;
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+#snackbar, #snackbar2 {
+  visibility: hidden; 
+  width: 250px; 
+  height:75px;
+  margin-left: -125px; 
+  background-color: #FFFFFF; 
+  color: #000000;
+  text-align: center; 
+  border-radius: 2px;
+  border:1px solid black;
+  padding: 16px; 
+  position: relative;
+  z-index: 1; 
+  left: 50%; 
+  bottom: 0px; 
+}
+
+
+#snackbar2.show, #snackbar.show {
+  visibility: visible; 
+  
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+  from {
+    bottom: 0;
+    opacity: 0;
+  }
+  to {
+    bottom: 30px;
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  from {
+    bottom: 0;
+    opacity: 0;
+  }
+  to {
+    bottom: 30px;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeout {
+  from {
+    bottom: 30px;
+    opacity: 1;
+  }
+  to {
+    bottom: 0;
+    opacity: 0;
+  }
+}
+
+@keyframes fadeout {
+  from {
+    bottom: 30px;
+    opacity: 1;
+  }
+  to {
+    bottom: 0;
+    opacity: 0;
+  }
+}
+
+#expired{
+  border-radius: 25px; 
+  border:1px solid black;
+  padding: 10x; 
+  width: 250px; 
+  margin-left: -125px; 
+  background-color: #FFFFFF; 
+  color:#000000;
+  text-align: center; 
+  border-color:000000;
+  position: relative; 
+  z-index: 1; 
+  left: 50%; 
+  bottom: 830px; 
+  font-family: arial, helvectica, sans-serif;
+}
+
+#forget{
+  font-color:#2E9723;
+  border:none;
+}
